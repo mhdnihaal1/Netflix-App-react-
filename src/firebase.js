@@ -10,14 +10,15 @@ import { addDoc, collection, getFirestore } from "firebase/firestore";
 
 import {toast} from 'react-toastify'
 
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAuUJ_xtzmHWWTfCefTwCMBSyahjD5mVgU",
-  authDomain: "netflix-21c78.firebaseapp.com",
-  projectId: "netflix-21c78",
-  storageBucket: "netflix-21c78.appspot.com",
-  messagingSenderId: "529459592517",
-  appId: "1:529459592517:web:6cbe088493f36ae32dd22c",
-  measurementId: "G-P88LCCX907",
+  apiKey: "AIzaSyCWvUNo7xZuQqn4RGUCOptsl9PhM5Sk2w8",
+  authDomain: "netflix-c225d.firebaseapp.com",
+  projectId: "netflix-c225d",
+  storageBucket: "netflix-c225d.appspot.com",
+  messagingSenderId: "23997316683",
+  appId: "1:23997316683:web:334ba486413ae83bf817ce",
+  measurementId: "G-PHTXER4VTW"
 };
 
 const app = initializeApp(firebaseConfig);
